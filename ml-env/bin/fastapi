@@ -1,0 +1,6 @@
+#!/home/jesus-andres-07/Documentos/501/Intelingencia_Artificial/Programas/Python/deploy-ml/ml-env/bin/python3
+import sys
+from fastapi.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
